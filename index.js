@@ -1,11 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var catButton = document.getElementById('catButton');
-
-    // Düğmeye tıklama olayını dinle
+    let catButton = document.querySelector('.cat');
     catButton.addEventListener('click', function() {
-        // Kedi sesini çal
-        var catSound = new Audio('cat_sound.mp3');
+        let catSound = new Audio('mjau3-82957.mp3');
         catSound.play();
     });
 });
+
 
